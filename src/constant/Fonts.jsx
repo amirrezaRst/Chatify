@@ -43,3 +43,14 @@ export const sansBold = LocalFont({
     display: "swap",
     variable: "--sans-bold",
 });
+
+export const yekanBlack = LocalFont({
+    src: [
+        {
+            path: "../../public/fonts/IRANYekanX-ExtraBlack.woff2",
+            style: "normal"
+        },
+    ],
+    display: "swap",
+    variable: "--yekan-black",
+});

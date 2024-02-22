@@ -15,6 +15,7 @@ module.exports = {
         "sans-regular": ["var(--sans-regular)"],
         "sans-medium": ["var(--sans-medium)"],
         "sans-bold": ["var(--sans-bold)"],
+        "yekan-black": ["var(--yekan-black)"],
       },
       container: {
         center: true,
@@ -31,6 +32,7 @@ module.exports = {
         "super-xs": "0.815rem",
         "super-sm": "0.925rem",
         "2.5xl": "1.7rem",
+        "3.5xl": "2.07rem",
         "4.5xl": "2.7rem",
         "5.5xl": "3.4rem",
         "6.5xl": "4.1rem",
@@ -38,6 +40,10 @@ module.exports = {
       borderRadius: {
         "4xl": "2rem",
         "5xl": "2.5rem"
+      },
+      colors: {
+        "purple-primary": "#623985",
+        "purple-secondary": "#885EAC",
       }
     },
   },

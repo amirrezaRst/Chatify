@@ -1,4 +1,4 @@
-import { sansLight, sansRegular, sansMedium, sansBold } from "@/constant/Fonts";
+import { sansLight, sansRegular, sansMedium, sansBold, yekanBlack } from "@/constant/Fonts";
 import "./globals.css";
 import MainLayout from "@/components/MainLayout";
 
@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="fa" dir="rtl">
       <body
         className={
-          `${sansRegular.className} ${sansLight.variable} ${sansRegular.variable} ${sansMedium.variable} ${sansBold.variable}`
+          `${sansRegular.className} ${sansLight.variable} ${sansRegular.variable} ${sansMedium.variable} ${sansBold.variable} ${yekanBlack.variable}`
         }
       >
 
